@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\HP\Desktop\SHOP & DROP\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2064791252.index
+1635776858.index
+1819595607.index
+2184461814.index
+1229301266.index

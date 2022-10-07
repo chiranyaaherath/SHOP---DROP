@@ -1,0 +1,180 @@
+@charset "ISO-8859-1";
+
+body{
+    background-color: #FFF5E1;
+}
+/*for the whole page*/
+* {margin:0; padding:0;}
+*.clearfix{overflow:auto;}
+* {text-decoration:none;}
+* {box-sizing: border-box;}
+
+/*Header*/
+.wrapper{
+	margin:0 auto;	
+	width:100%;
+	height: 100%;
+	background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#424242,#419fe9);
+}
+
+.header{
+	background: black;
+}
+
+ /* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #BDBDBD;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  color: white;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: white;
+  text-decoration: underline;
+} 
+
+.web-intro
+{	text-align:center;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	
+	
+}
+.web-intro h2
+{
+	
+	color: white;
+	margin:50px 0 20px 50px;
+	font-size: 40px;
+    font-family: initial;
+}
+.web-intro p
+{
+	
+	margin-left: 50px;
+	color: black;
+
+}
+
+.head-intro h1
+{
+	color: white;
+	margin:50px 0 20px 0;
+	text-align: center;
+	font-size: 40px;
+    font-family: initial;
+
+}
+.introduction-container
+{
+	width: 100%;
+	display:flex;
+	background-color: #BDBDBD;
+}
+.intro-colom
+{
+	flex-basis: 0;
+	-webkit-box-flex:1;
+	flex-grow: 1;
+	max-width: 100%;
+	margin: 10px;
+}
+.colom-part
+{
+	display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.colom-part h3
+{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.colom-part p
+{
+	color: black;
+}
+.colom-img
+{
+
+	margin-right: 15px;
+    background: #ffffff;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.35);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+
+
+/*footer*/
+.footer {
+	background-color: black;
+	height : 75px;
+}
+.footer p {
+	float : left;
+	text-align : left;
+	color : white;
+	padding : 10px 10px;
+	font-size: 10px;
+	text-decoration: italic;
+}
+.footer ul {
+	list-style-type: none;
+	background-color : black;
+}
+.footer ul li {
+	float : right;
+}
+.footer ul li a {
+	display: block;
+	text-align : center;
+	padding : 10px 10px;
+	text-decoration: none;
+	color: white;
+}
+.promodtlssrh h1{
+	height:30px;
+}
+.parsley-errors-list {
+	background: #fdd9d9;
+    list-style: none;
+    padding: 3px;
+    font-size: 14px;
+    margin-top: 3px;
+    color: red;
+    font-weight: 600;
+}
+.credential_error{
+	
+    color: #066106;
+    padding: 8px;
+}
+.credential_error1{
+	
+    color: red;
+    padding: 8px;
+}
